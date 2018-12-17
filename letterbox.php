@@ -12,7 +12,7 @@ if (isset($_POST['envoyer'])) {
 
     $headers = 'From:'.$from;
 
-    mail($to, $subject, $message, $headers);
+    mail($to, utf8_decode($subject),utf8_decode($message), $headers);
 }
 
 ?> 
