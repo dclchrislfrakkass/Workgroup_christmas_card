@@ -170,12 +170,12 @@
 		<!-- <img src="./img/bonhommeDeNeige1-3.svg" class="snowman" alt="Bonhomme de neige"> -->
 		<img src="./img/letterbox.svg" id="letterbox">
 		<div id="adresseMail">
-<form method="POST">
-<input type="email" id="email" name="email" placeholder="A qui envoyer ?">
-<button type="submit" name="envoyer">Mail To</button>
-<?php include 'letterbox.php'; ?>
-</form>
-</div>
+				<form method="POST">
+				<input type="email" id="email" name="email" placeholder="A qui envoyer ?">
+				<button type="submit" name="envoyer">Mail To</button>
+				<?php include 'letterbox.php'; ?>
+				</form>
+				</div>
 	<img src="./img/baton_gauche.png" class="batonGauche">
 	<img src="./img/baton_droit.png" class="batonDroit">
 

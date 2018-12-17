@@ -1,9 +1,10 @@
 <?php
 
-if (isset($_POST['letter'])) {
-    $message = 'dcl.cartes.18pixel.fr/Trefle/index.php';
+if (isset($_POST['envoyer'])) {
+    $message = "Toute l'équipe d'Aformac Berry vous souhaite de bonnes fêtes\n\n";
+    $message .= "http://dcl.cartes.18pixel.fr/Trefle/index.php";
 
-    $from = 'test@votredomaine.com';
+    $from = 'contact@aformac.fr';
 
     $to = $_POST['email'];
 
