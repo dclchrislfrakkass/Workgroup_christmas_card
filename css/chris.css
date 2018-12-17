@@ -1,0 +1,16 @@
+.pixel18 {
+    top: -200px;
+    position: relative;
+    animation:  mymove 2s infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes mymove{
+    from {
+        left:-600px;
+    }
+    to {
+        left: 2500px;
+    }
+}
